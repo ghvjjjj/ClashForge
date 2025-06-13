@@ -37,7 +37,7 @@ TEST_URL = "http://www.pinterest.com"
 CLASH_API_PORTS = [9090]
 CLASH_API_HOST = "127.0.0.1"
 CLASH_API_SECRET = ""
-TIMEOUT = 2
+TIMEOUT = 1
 # 存储所有节点的速度测试结果
 SPEED_TEST = True
 SPEED_TEST_LIMIT = 5 # 只测试前30个节点的下行速度，每个节点测试5秒
