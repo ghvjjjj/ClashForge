@@ -32,12 +32,24 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- type: vless
-  name: ❓ 未知_21
-  server: 156.238.18.191
+- name: ❓ 未知_75
+  type: vless
+  server: 156.238.18.217
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2560
+    headers:
+      Host: jp.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
+- type: vless
+  name: ❓ 未知_83
+  server: 156.238.18.177
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -45,7 +57,6 @@ proxies:
       Host: sg.laoyoutiao.link
     path: /Telegram@WangCai2/?ed=2048
   client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
 proxy-groups:
 - name: 节点选择
   type: select
@@ -58,7 +69,8 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies: &id001
-  - ❓ 未知_21
+  - ❓ 未知_83
+  - ❓ 未知_75
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
