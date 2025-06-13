@@ -33,7 +33,7 @@ import psutil
 
 
 # TEST_URL = "http://www.gstatic.com/generate_204"
-TEST_URL = "http://www.pinterest.com"
+TEST_URL = "https://blog.csdn.net"
 CLASH_API_PORTS = [9090]
 CLASH_API_HOST = "127.0.0.1"
 CLASH_API_SECRET = ""
@@ -43,7 +43,7 @@ SPEED_TEST = True
 SPEED_TEST_LIMIT = 5 # 只测试前30个节点的下行速度，每个节点测试5秒
 results_speed = []
 MAX_CONCURRENT_TESTS = 30
-LIMIT = 60 # 最多保留LIMIT个节点
+LIMIT = 30 # 最多保留LIMIT个节点
 CONFIG_FILE = 'clash_config.yaml'
 INPUT = "input" # 从文件中加载代理节点，支持yaml/yml、txt(每条代理链接占一行)
 BAN = ["中国", "China", "CN", "电信", "移动", "联通"]
