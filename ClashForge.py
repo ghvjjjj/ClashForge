@@ -1483,6 +1483,6 @@ if __name__ == '__main__':
         "https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml",
         "https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads",
         "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
-        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash'
+        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
     ]
     work(links, check=True, only_check=False, allowed_types=["hysteria2","hy2","vless","vmess","trojan"])
