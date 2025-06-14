@@ -33,11 +33,11 @@ import psutil
 
 
 # TEST_URL = "http://www.gstatic.com/generate_204"
-TEST_URL = "https://www.hlj.gov.cn/"
+TEST_URL = "https://www.10086.cn/aboutus/culture/intro/province_culture_intro_detail/hl/"
 CLASH_API_PORTS = [9090]
 CLASH_API_HOST = "127.0.0.1"
 CLASH_API_SECRET = ""
-TIMEOUT = 10
+TIMEOUT = 5
 # 存储所有节点的速度测试结果
 SPEED_TEST = True
 SPEED_TEST_LIMIT = 5 # 只测试前30个节点的下行速度，每个节点测试5秒
