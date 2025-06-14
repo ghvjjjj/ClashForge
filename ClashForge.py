@@ -33,7 +33,7 @@ import psutil
 
 
 # TEST_URL = "http://www.gstatic.com/generate_204"
-TEST_URL = "https://www.10086.cn/aboutus/culture/intro/province_culture_intro_detail/hl/"
+TEST_URL = "https://yun.139.com/"
 CLASH_API_PORTS = [9090]
 CLASH_API_HOST = "127.0.0.1"
 CLASH_API_SECRET = ""
@@ -1481,9 +1481,9 @@ def work(links,check=False,allowed_types=[],only_check=False):
 if __name__ == '__main__':
     links = [
         "https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml",
-        "https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads",
-        "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
-        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_HK.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_JP.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_TW.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_US.meta.yml"
     ]
     work(links, check=True, only_check=False, allowed_types=["hysteria2","hy2","vless","vmess","trojan"])
