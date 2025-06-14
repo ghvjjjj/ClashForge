@@ -33,7 +33,7 @@ import psutil
 
 
 # TEST_URL = "http://www.gstatic.com/generate_204"
-TEST_URL = "https://mbd.baidu.com"
+TEST_URL = "http://www.gstatic.com/generate_204"
 CLASH_API_PORTS = [9090]
 CLASH_API_HOST = "127.0.0.1"
 CLASH_API_SECRET = ""
