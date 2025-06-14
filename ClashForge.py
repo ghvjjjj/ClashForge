@@ -43,7 +43,7 @@ SPEED_TEST = True
 SPEED_TEST_LIMIT = 5 # 只测试前30个节点的下行速度，每个节点测试5秒
 results_speed = []
 MAX_CONCURRENT_TESTS = 30
-LIMIT = 30 # 最多保留LIMIT个节点
+LIMIT = 60 # 最多保留LIMIT个节点
 CONFIG_FILE = 'clash_config.yaml'
 INPUT = "input" # 从文件中加载代理节点，支持yaml/yml、txt(每条代理链接占一行)
 BAN = ["中国", "China", "CN", "电信", "移动", "联通"]
@@ -1483,6 +1483,7 @@ if __name__ == '__main__':
         "https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml",
         "https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads",
         "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
-        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
     ]
     work(links, check=True, only_check=False, allowed_types=["hysteria2","hy2","vless","vmess","trojan"])
