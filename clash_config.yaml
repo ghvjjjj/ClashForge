@@ -32,309 +32,7 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: ❓ 未知_5
-  type: vmess
-  server: 47.104.186.133
-  port: '50002'
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '0'
-  tls: false
-  client-fingerprint: ''
-- name: ❓ 未知_17
-  type: vless
-  server: 220.118.236.239
-  port: '12147'
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edmx.aimercc.filegear-sg.me
-  servername: edmx.aimercc.filegear-sg.me
-- name: ❓ 未知_25
-  type: vless
-  server: ::ffff:156.238.18.251
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_34
-  type: vless
-  server: ::ffff:156.238.18.66
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_38
-  type: vless
-  server: ::ffff:156.238.18.184
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_39
-  server: 156.238.18.11
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- name: ❓ 未知_41
-  type: vless
-  server: ::ffff:156.238.18.200
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  servername: sg.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_42
-  server: 156.238.18.191
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: 🇸🇬 新加坡_4
-  type: vless
-  server: ::ffff:156.238.18.222
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_46
-  type: vless
-  server: ::ffff:156.238.18.80
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_51
-  type: vless
-  server: ::ffff:156.238.18.177
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_52
-  type: vless
-  server: 156.238.18.217
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2560
-    headers:
-      Host: jp.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-- name: ❓ 未知_53
-  type: vless
-  server: ::ffff:156.238.18.84
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_56
-  type: vless
-  server: ::ffff:156.238.18.2
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_57
-  server: 156.238.18.104
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- name: ❓ 未知_62
-  type: vless
-  server: ::ffff:156.238.18.203
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_66
-  type: vless
-  server: ::ffff:156.238.18.219
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_70
-  type: vless
-  server: 156.238.18.168
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2560
-    headers:
-      Host: jp.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-- name: ❓ 未知_71
-  type: vless
-  server: ::ffff:156.238.18.88
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: 🇸🇬 新加坡_6
-  type: vless
-  server: ::ffff:156.238.18.7
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_82
-  type: vless
-  server: ::ffff:156.238.18.70
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_84
-  type: vless
-  server: ::ffff:156.238.18.210
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_94
-  type: vless
-  server: ::ffff:156.238.18.94
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_98
-  server: 156.238.18.84
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-- name: ❓ 未知_105
+- name: ❓ 未知_16
   type: vless
   server: ::ffff:156.238.18.170
   port: '8880'
@@ -347,9 +45,194 @@ proxies:
       Host: sg.laoyoutiao.link
   client-fingerprint: chrome
   servername: sg.laoyoutiao.link
+- name: ❓ 未知_17
+  type: vless
+  server: ::ffff:156.238.18.148
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: ❓ 未知_19
+  type: vless
+  server: ::ffff:156.238.18.122
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: ❓ 未知_25
+  type: vless
+  server: ::ffff:156.238.18.46
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
 - type: vless
-  name: ❓ 未知_108
-  server: 156.238.18.131
+  name: ❓ 未知_31
+  server: 156.238.18.122
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+- type: vless
+  name: ❓ 未知_34
+  server: 156.238.18.191
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: 🇸🇬 新加坡_3
+  type: vless
+  server: ::ffff:156.238.18.212
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: 🇸🇬 新加坡_4
+  type: vless
+  server: ::ffff:156.238.18.221
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- type: vless
+  name: ❓ 未知_42
+  server: 156.238.18.153
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+  client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
+- name: ❓ 未知_44
+  type: vless
+  server: ::ffff:156.238.18.224
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: 🇸🇬 新加坡_7
+  type: vless
+  server: ::ffff:156.238.18.85
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: ❓ 未知_59
+  type: vless
+  server: ::ffff:156.238.18.89
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: 🇸🇬 新加坡_9
+  type: vless
+  server: ::ffff:156.238.18.200
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- type: vless
+  name: ❓ 未知_67
+  server: 156.238.18.66
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- type: vless
+  name: 🇯🇵 日本_4
+  server: 156.238.18.212
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2560
+  client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
+- type: vless
+  name: ❓ 未知_69
+  server: 156.238.18.7
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   tls: false
@@ -362,32 +245,32 @@ proxies:
   client-fingerprint: chrome
   servername: sg.laoyoutiao.link
 - type: vless
-  name: ❓ 未知_116
-  server: 45.131.211.145
-  port: '80'
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  tls: false
+  name: ❓ 未知_72
+  server: 156.238.18.172
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   skip-cert-verify: false
   network: ws
   ws-opts:
     headers:
-      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
-    path: /Telegram:@ShadowProxy66/?ed=2560
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
 - type: vless
-  name: ❓ 未知_120
-  server: 45.12.31.156
-  port: '80'
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  tls: false
+  name: ❓ 未知_78
+  server: 156.238.18.84
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   skip-cert-verify: false
   network: ws
   ws-opts:
     headers:
-      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
-    path: /Telegram:@ShadowProxy66/?ed=2560
-- name: ❓ 未知_130
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+- name: ❓ 未知_79
   type: vless
-  server: ::ffff:156.238.18.190
+  server: ::ffff:156.238.18.160
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   tls: false
@@ -398,9 +281,49 @@ proxies:
       Host: sg.laoyoutiao.link
   client-fingerprint: chrome
   servername: sg.laoyoutiao.link
-- name: ❓ 未知_131
+- type: vless
+  name: ❓ 未知_81
+  server: 185.148.104.245
+  port: '80'
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+    path: /Telegram:@ShadowProxy66/?ed=2560
+  client-fingerprint: chrome
+- type: vless
+  name: ❓ 未知_83
+  server: 156.238.18.244
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+- name: ❓ 未知_88
+  server: 45.131.4.83
+  port: '80'
   type: vless
-  server: 156.238.18.145
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /Telegram:@ShadowProxy66/?ed=2560
+    headers:
+      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+  udp: true
+  client-fingerprint: chrome
+  servername: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+- name: 🇯🇵 日本_6
+  type: vless
+  server: 156.238.18.199
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   tls: false
@@ -409,8 +332,92 @@ proxies:
     path: /Telegram@WangCai2/?ed=2560
     headers:
       Host: jp.laoyoutiao.link
-  client-fingerprint: chrome
   servername: jp.laoyoutiao.link
+- name: ❓ 未知_103
+  type: vless
+  server: ::ffff:156.238.18.203
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- type: vless
+  name: ❓ 未知_106
+  server: 45.142.120.134
+  port: '80'
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+    path: /Telegram:@ShadowProxy66/?ed=2560
+  client-fingerprint: chrome
+- type: vless
+  name: ❓ 未知_108
+  server: 156.238.18.85
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+- type: vless
+  name: ❓ 未知_115
+  server: 156.238.18.170
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /
+- type: vless
+  name: ❓ 未知_118
+  server: 45.159.217.86
+  port: '80'
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /
+  servername: ipsycho.suex12.ir
+- type: vless
+  name: ❓ 未知_123
+  server: 104.129.164.39
+  port: '8880'
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳
+- type: vless
+  name: ❓ 未知_130
+  server: 141.193.213.26
+  port: '80'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed
+  servername: us.laoyoutiao.link
 proxy-groups:
 - name: 节点选择
   type: select
@@ -423,36 +430,36 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies: &id001
-  - ❓ 未知_25
-  - ❓ 未知_39
-  - ❓ 未知_94
-  - ❓ 未知_62
-  - ❓ 未知_51
-  - ❓ 未知_5
-  - ❓ 未知_70
-  - 🇸🇬 新加坡_6
-  - ❓ 未知_34
-  - ❓ 未知_71
-  - ❓ 未知_116
-  - ❓ 未知_53
-  - ❓ 未知_56
-  - ❓ 未知_42
-  - ❓ 未知_57
-  - ❓ 未知_120
-  - ❓ 未知_98
-  - 🇸🇬 新加坡_4
-  - ❓ 未知_38
-  - ❓ 未知_84
-  - ❓ 未知_41
-  - ❓ 未知_108
-  - ❓ 未知_130
-  - ❓ 未知_66
-  - ❓ 未知_52
-  - ❓ 未知_82
-  - ❓ 未知_105
-  - ❓ 未知_46
+  - 🇸🇬 新加坡_7
+  - ❓ 未知_44
+  - 🇯🇵 日本_4
+  - 🇯🇵 日本_6
+  - ❓ 未知_69
   - ❓ 未知_17
-  - ❓ 未知_131
+  - ❓ 未知_19
+  - ❓ 未知_81
+  - ❓ 未知_123
+  - ❓ 未知_42
+  - ❓ 未知_103
+  - ❓ 未知_67
+  - ❓ 未知_16
+  - ❓ 未知_108
+  - 🇸🇬 新加坡_9
+  - ❓ 未知_83
+  - ❓ 未知_106
+  - ❓ 未知_79
+  - ❓ 未知_78
+  - ❓ 未知_88
+  - ❓ 未知_25
+  - 🇸🇬 新加坡_3
+  - ❓ 未知_59
+  - ❓ 未知_31
+  - ❓ 未知_130
+  - ❓ 未知_34
+  - 🇸🇬 新加坡_4
+  - ❓ 未知_72
+  - ❓ 未知_115
+  - ❓ 未知_118
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
