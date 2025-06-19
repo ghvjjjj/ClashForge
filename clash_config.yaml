@@ -32,51 +32,14 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇹🇼 台湾_2
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  port: '1443'
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
-  tls: true
-  udp: true
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-- name: ❓ 未知_3
-  server: 221.150.109.89
-  port: '11389'
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  client-fingerprint: chrome
-- name: ❓ 未知_5
-  type: ss
-  server: 125.141.26.12
-  port: '4857'
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  client-fingerprint: chrome
-- type: vless
-  name: 🇫🇮 芬兰_1
-  server: 91.99.150.156
-  port: '2182'
-  uuid: b96981a2-a6aa-44c0-b21f-88328379ec33
-  tls: true
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  reality-opts:
-    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
-  network: grpc
-  grpc-opts:
-    grpc-service-name: chessgame
-  servername: chess.com
 - type: ss
-  server: 218.237.185.230
-  port: '4652'
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  name: 🇰🇷 韩国_4
+  server: 112.54.160.36
+  port: '30232'
+  cipher: aes-256-gcm
+  password: dwz1GtF7
+  name: 🇯🇵 日本
 - type: vless
-  name: ❓ 未知_23
+  name: ❓ 未知_2
   server: 156.238.18.123
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -87,69 +50,8 @@ proxies:
       Host: sg.laoyoutiao.link
     path: /Telegram@WangCai2/?ed=2048
   client-fingerprint: chrome
-- name: ❓ 未知_25
-  type: vless
-  server: ::ffff:156.238.18.170
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
 - type: vless
-  name: 🇸🇬 新加坡_9
-  server: 156.238.18.20
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡_10
-  type: vless
-  server: ::ffff:156.238.18.184
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_28
-  server: 108.165.216.141
-  port: '80'
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
-    path: /Telegram:@ShadowProxy66/?ed=2560
-- type: vless
-  name: 🇸🇬 新加坡_11
-  server: 156.238.18.80
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@节点狂魔2/?ed=2048
-- type: vless
-  name: 🇩🇪 德国_1
+  name: 🇺🇸 美国_5
   server: 104.17.105.92
   port: '80'
   uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
@@ -162,9 +64,59 @@ proxies:
       Host: dw.alibichareh.dpdns.org
     path: /?ed=2560
   servername: dw.alibichareh.dpdns.org
-- name: 🇸🇬 新加坡_14
+- type: vless
+  name: ❓ 未知_13
+  server: 156.238.18.148
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+- type: vless
+  name: ❓ 未知_15
+  server: 156.238.18.179
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+- name: ❓ 未知_20
   type: vless
-  server: ::ffff:156.238.18.255
+  server: ::ffff:156.238.18.160
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: ❓ 未知_23
+  type: vless
+  server: ::ffff:156.238.18.251
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: ❓ 未知_24
+  type: vless
+  server: ::ffff:156.238.18.244
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   tls: false
@@ -176,80 +128,7 @@ proxies:
   client-fingerprint: chrome
   servername: sg.laoyoutiao.link
 - type: vless
-  name: 🇸🇬 新加坡_16
-  server: 156.238.18.167
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- name: ❓ 未知_35
-  type: vless
-  server: ::ffff:156.238.18.58
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
-    headers:
-      Host: sg.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_36
-  server: 31.43.179.145
-  port: '80'
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
-    path: /Telegram:@ShadowProxy66/?ed=2560
-  client-fingerprint: chrome
-- type: vless
-  name: 🇺🇸 美国_8
-  server: 104.17.104.45
-  port: '80'
-  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: lot.sosant.dpdns.org
-    path: /?ed=2560
-- type: vless
-  name: ❓ 未知_52
-  server: 156.238.18.136
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- type: vless
-  name: 🇸🇬 新加坡_22
-  server: 156.238.18.190
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- type: vless
-  name: 🇸🇬 新加坡_24
+  name: ❓ 未知_26
   server: 156.238.18.11
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -260,111 +139,9 @@ proxies:
       Host: sg.laoyoutiao.link
     path: /Telegram@WangCai2/?ed=2048
   client-fingerprint: chrome
-- type: vless
-  name: 🇫🇮 芬兰_6
-  server: 104.16.100.188
-  port: '80'
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /?ed=2560
-  servername: entezar.loseyourself.dpdns.org
-- type: vless
-  name: ❓ 未知_63
-  server: 156.238.18.94
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- type: vless
-  name: 🇸🇬 新加坡_26
-  server: 156.238.18.78
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- type: vless
-  name: ❓ 未知_67
-  server: 45.131.5.226
-  port: '80'
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
-    path: /Telegram:@ShadowProxy66/?ed=2560
-- type: vless
-  name: 🇺🇸 美国_14
-  server: 104.16.241.234
-  port: '80'
-  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: dw.alibichareh.dpdns.org
-    path: /?ed=2560
-  servername: dw.alibichareh.dpdns.org
-- type: vless
-  name: ❓ 未知_69
-  server: 154.83.2.235
-  port: '80'
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
-    path: /Telegram:@ShadowProxy66/?ed=2560
-  client-fingerprint: chrome
-- type: vless
-  name: ❓ 未知_70
-  server: 156.238.18.212
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2560
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-- type: vless
-  name: 🇸🇬 新加坡_27
-  server: 156.238.18.176
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-  client-fingerprint: chrome
-- name: ❓ 未知_71
+- name: ❓ 未知_28
   type: vless
-  server: ::ffff:156.238.18.11
+  server: ::ffff:156.238.18.254
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   tls: false
@@ -376,20 +153,8 @@ proxies:
   client-fingerprint: chrome
   servername: sg.laoyoutiao.link
 - type: vless
-  name: 🇺🇸 美国_15
-  server: 104.24.34.94
-  port: '80'
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2570
-- type: vless
-  name: 🇩🇪 德国_5
-  server: 104.16.103.250
+  name: 🇺🇸 美国_10
+  server: 104.16.181.110
   port: '80'
   uuid: 1f431db3-1918-4e7b-a855-c93485e11694
   tls: false
@@ -401,102 +166,33 @@ proxies:
       Host: pari.parinazz.dpdns.org
     path: /?ed=2560
   servername: pari.parinazz.dpdns.org
-- name: 🇸🇬 新加坡_28
-  type: vless
-  server: ::ffff:156.238.18.78
+- type: vless
+  name: ❓ 未知_29
+  server: 156.238.18.58
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
     headers:
       Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
   client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-- name: ❓ 未知_75
-  type: vless
-  server: ::ffff:156.238.18.84
+- type: vless
+  name: ❓ 未知_30
+  server: 156.238.18.2
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /Telegram@WangCai2/?ed=2048
     headers:
       Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳@WangCai2/?ed=2048
   client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
 - type: vless
-  name: 🇺🇸 美国_19
-  server: 104.17.99.202
-  port: '80'
-  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: lot.sosant.dpdns.org
-    path: /?ed=2560
-  servername: lot.sosant.dpdns.org
-- type: vless
-  name: 🇩🇪 德国_6
-  server: 172.67.53.233
-  port: '80'
-  uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: di.dibdibini.dpdns.org
-    path: /BaRAyeIran?ed=2560
-  servername: di.dibdibini.dpdns.org
-- name: 🇺🇸 美国_20
-  type: vless
-  server: 183.106.76.116
-  port: '12340'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- type: vless
-  name: 🇺🇸 美国_21
-  server: 104.17.85.22
-  port: '80'
-  uuid: 8c17092b-4d89-44e3-9dcb-a00c2bf28827
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: aymng.bahareh.dpdns.org
-    path: /?ed=2560
-  servername: aymng.bahareh.dpdns.org
-- type: vless
-  name: 🇫🇮 芬兰_11
-  server: 104.16.99.37
-  port: '80'
-  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: barayeiran.nastaranh.dpdns.org
-    path: /?ed=2560
-  servername: barayeiran.nastaranh.dpdns.org
-- type: vless
-  name: 🇺🇸 美国_22
-  server: 172.66.135.5
+  name: 🇫🇮 芬兰_5
+  server: 172.66.132.44
   port: '80'
   uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b
   tls: false
@@ -509,22 +205,8 @@ proxies:
     path: /?ed=2560
   servername: abcd.taraneh.dpdns.org
 - type: vless
-  name: 🇺🇸 美国_23
-  server: 104.16.104.151
-  port: '80'
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-  servername: pari.parinazz.dpdns.org
-- type: vless
-  name: 🇫🇮 芬兰_12
-  server: 104.24.135.83
+  name: 🇺🇸 美国_11
+  server: 104.16.1.106
   port: '80'
   uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
   tls: false
@@ -537,101 +219,7 @@ proxies:
     path: /?ed=2560
   servername: delam.ahaysiahzangi.dpdns.org
 - type: vless
-  name: 🇺🇸 美国_24
-  server: 104.16.136.210
-  port: '80'
-  uuid: cba0b35b-8943-4c70-a864-9f78145b7897
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: agolna.mahsaamini.dpdns.org
-    path: /?ed=2560
-- type: vless
-  name: 🇩🇪 德国_11
-  server: 104.16.109.134
-  port: '80'
-  uuid: 941d092e-8313-452a-ba21-c9995dcba79d
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: havvas.shohreh.dpdns.org
-    path: /?ed=2560
-  servername: havvas.shohreh.dpdns.org
-- type: vless
-  name: 🇺🇸 美国_29
-  server: 104.17.209.145
-  port: '80'
-  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: dw.alibichareh.dpdns.org
-    path: /?ed=2560
-  servername: dw.alibichareh.dpdns.org
-- type: vless
-  name: 🇺🇸 美国_31
-  server: 104.24.247.217
-  port: '80'
-  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: dw.alibichareh.dpdns.org
-    path: /?ed=2560
-  servername: dw.alibichareh.dpdns.org
-- type: vless
-  name: 🇳🇱 荷兰_2
-  server: 172.66.133.134
-  port: '80'
-  uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcd.taraneh.dpdns.org
-    path: /?ed=2560
-  servername: abcd.taraneh.dpdns.org
-- type: vless
-  name: 🇫🇮 芬兰_16
-  server: 104.16.137.145
-  port: '80'
-  uuid: cba0b35b-8943-4c70-a864-9f78145b7897
-  tls: false
-  client-fingerprint: random
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: agolna.mahsaamini.dpdns.org
-    path: /?ed=2560
-  servername: agolna.mahsaamini.dpdns.org
-- type: vless
-  name: ❓ 未知_91
-  server: 172.67.36.32
-  port: '80'
-  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: barayeiran.nastaranh.dpdns.org
-    path: /?ed=2570
-- type: vless
-  name: 🇩🇪 德国_18
+  name: 🇩🇪 德国_3
   server: 172.67.92.147
   port: '80'
   uuid: b8be6118-0dd7-4402-ae1a-69b2816f3a7f
@@ -645,8 +233,113 @@ proxies:
     path: /?ed=2560
   servername: br.presskiwi.dpdns.org
 - type: vless
-  name: 🇫🇮 芬兰_19
-  server: 104.25.86.75
+  name: 🇩🇪 德国_4
+  server: 104.16.103.250
+  port: '80'
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+  servername: pari.parinazz.dpdns.org
+- type: vless
+  name: ❓ 未知_37
+  server: 45.131.211.125
+  port: '80'
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+    path: /Telegram:@ShadowProxy66/?ed=2560
+  client-fingerprint: chrome
+- type: vless
+  name: ❓ 未知_38
+  server: 156.238.18.125
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
+- name: ❓ 未知_39
+  type: vless
+  server: ::ffff:156.238.18.184
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: ❓ 未知_41
+  type: vless
+  server: ::ffff:156.238.18.176
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- type: vless
+  name: 🇫🇮 芬兰_6
+  server: 172.67.11.138
+  port: '80'
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡_9
+  type: vless
+  server: ::ffff:156.238.18.252
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- type: vless
+  name: 🇺🇸 美国_18
+  server: 104.17.209.145
+  port: '80'
+  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: dw.alibichareh.dpdns.org
+    path: /?ed=2560
+  servername: dw.alibichareh.dpdns.org
+- type: vless
+  name: 🇫🇮 芬兰_7
+  server: 104.18.209.108
   port: '80'
   uuid: d1237c01-58b5-48f9-8a27-8a396b7f5422
   tls: false
@@ -659,8 +352,36 @@ proxies:
     path: /?ed=2560
   servername: ey.nazanin.dpdns.org
 - type: vless
-  name: 🇸🇬 新加坡_33
-  server: 156.238.18.254
+  name: 🇺🇸 美国_19
+  server: 104.24.31.150
+  port: '80'
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
+    path: /?ed=2560
+  servername: lot.sosant.dpdns.org
+- type: vless
+  name: ❓ 未知_49
+  server: 104.16.241.234
+  port: '80'
+  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: dw.alibichareh.dpdns.org
+    path: /?ed=2560
+  servername: dw.alibichareh.dpdns.org
+- type: vless
+  name: 🇸🇬 新加坡_12
+  server: 156.238.18.136
   port: '8880'
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   skip-cert-verify: false
@@ -669,22 +390,214 @@ proxies:
     headers:
       Host: sg.laoyoutiao.link
     path: /Telegram@WangCai2/?ed=2048
+  client-fingerprint: chrome
 - type: vless
-  name: 🇺🇸 美国_42
-  server: 172.67.218.184
+  name: 🇳🇱 荷兰_3
+  server: 104.24.56.187
   port: '80'
-  uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2560
+  client-fingerprint: chrome
+- name: ❓ 未知_51
+  type: vless
+  server: ::ffff:156.238.18.136
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- name: ❓ 未知_53
+  type: vless
+  server: ::ffff:156.238.18.58
+  port: '8880'
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      Host: sg.laoyoutiao.link
+  client-fingerprint: chrome
+  servername: sg.laoyoutiao.link
+- type: vless
+  name: 🇩🇪 德国_10
+  server: 104.17.119.85
+  port: '80'
+  uuid: 8c17092b-4d89-44e3-9dcb-a00c2bf28827
   tls: false
   client-fingerprint: random
   skip-cert-verify: false
   network: ws
   ws-opts:
     headers:
-      Host: abcd.taraneh.dpdns.org
+      Host: aymng.bahareh.dpdns.org
     path: /?ed=2560
-  servername: abcd.taraneh.dpdns.org
+  servername: aymng.bahareh.dpdns.org
 - type: vless
-  name: 🇺🇸 美国_43
+  name: 🇦🇪 阿联酋_5
+  server: 104.24.34.94
+  port: '80'
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: /?ed=2570
+  client-fingerprint: chrome
+- type: vless
+  name: 🇫🇮 芬兰_11
+  server: 104.16.109.107
+  port: '80'
+  uuid: b28eb861-1748-4200-ba72-278669edc33b
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: coco.mahmoodchitooz.dpdns.org
+    path: /?ed=2560
+  servername: coco.mahmoodchitooz.dpdns.org
+- type: vless
+  name: 🇳🇱 荷兰_5
+  server: 104.24.247.217
+  port: '80'
+  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: dw.alibichareh.dpdns.org
+    path: /?ed=2560
+  servername: dw.alibichareh.dpdns.org
+- type: vless
+  name: 🇳🇱 荷兰_6
+  server: 104.18.30.65
+  port: '80'
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
+    path: /?ed=2560
+  servername: lot.sosant.dpdns.org
+- name: 🇺🇸 美国_29
+  type: vless
+  network: ws
+  server: 104.24.37.192
+  port: '80'
+  uuid: 9a2680ff-c5d5-410a-9108-8d6b10e4ea1e
+  skip-cert-verify: false
+  tls: false
+  ws-opts:
+    headers:
+      Host: ppal03.dolobe7975.workers.dev
+    path: /?ed=2560
+  client-fingerprint: chrome
+- type: vless
+  name: 🇺🇸 美国_30
+  server: 172.67.56.112
+  port: '80'
+  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: entezar.loseyourself.dpdns.org
+    path: /BaRAyeIran?ed=2560
+  servername: entezar.loseyourself.dpdns.org
+- type: vless
+  name: 🇦🇪 阿联酋_7
+  server: 172.67.164.239
+  port: '80'
+  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: barayeiran.nastaranh.dpdns.org
+    path: /BaRAyeIran?ed=2560
+  servername: barayeiran.nastaranh.dpdns.org
+- type: vless
+  name: 🇩🇪 德国_17
+  server: 172.67.177.223
+  port: '80'
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
+    path: /?ed=2560
+  servername: lot.sosant.dpdns.org
+- type: vless
+  name: 🇩🇪 德国_19
+  server: 172.67.14.59
+  port: '80'
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: /?ed=2560
+  servername: kssepa.sabzipolobamahi.dpdns.org
+- type: vless
+  name: 🇺🇸 美国_34
+  server: 104.21.113.169
+  port: '80'
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+  servername: pari.parinazz.dpdns.org
+- type: vless
+  name: 🇩🇪 德国_20
+  server: 172.67.53.233
+  port: '80'
+  uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: di.dibdibini.dpdns.org
+    path: /BaRAyeIran?ed=2560
+  servername: di.dibdibini.dpdns.org
+- type: vless
+  name: 🇫🇮 芬兰_20
   server: 172.67.254.80
   port: '80'
   uuid: 948f6596-66f9-4707-aa92-3107a214ce53
@@ -697,406 +610,208 @@ proxies:
       Host: oops.shalamshorba.dpdns.org
     path: /?ed=2560
   servername: oops.shalamshorba.dpdns.org
-- type: vless
-  name: 🇫🇮 芬兰_22
-  server: 172.67.128.105
-  port: '80'
-  uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: di.dibdibini.dpdns.org
-    path: /?ed=2560
-- type: vless
-  name: ❓ 未知_96
-  server: 92.60.74.63
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed
-  servername: jp.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_97
-  server: 91.193.58.175
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-  servername: us.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_98
-  server: 156.243.246.63
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed
-  servername: jp.laoyoutiao.link
-- name: 🇺🇸 美国_52
+- name: ❓ 未知_57
   type: vless
-  server: 212.183.88.16
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
   network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: 🇯🇵 日本_5
-  type: vless
-  server: 108.165.152.252
-  port: '2096'
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edmi.aimercc.filegear-sg.me
-  servername: edmi.aimercc.filegear-sg.me
-- type: vless
-  name: 🇫🇮 芬兰_25
-  server: 172.67.197.185
+  server: 172.67.168.60
   port: '80'
-  uuid: db9d419e-3094-4942-9313-d39afd3dd163
+  uuid: 5335d16e-7e42-4c9b-93a3-9e83bfd3073d
+  skip-cert-verify: false
+  tls: false
+  ws-opts:
+    headers:
+      Host: workerr.johnstoner.workers.dev
+    path: /?ed=2048
+  client-fingerprint: chrome
+- type: vless
+  name: ❓ 未知_58
+  server: 172.67.194.241
+  port: '80'
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
   tls: false
   client-fingerprint: random
   skip-cert-verify: false
   network: ws
   ws-opts:
     headers:
-      Host: spx.lindak.dpdns.org
+      Host: delam.ahaysiahzangi.dpdns.org
     path: /?ed=2560
-  servername: spx.lindak.dpdns.org
-- name: 🇯🇵 日本_6
-  type: vless
-  server: ignacio.ns.cloudflare.com
-  port: '443'
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edmi.aimercc.filegear-sg.me
-  servername: edmi.aimercc.filegear-sg.me
+  servername: delam.ahaysiahzangi.dpdns.org
 - type: vless
-  name: ❓ 未知_102
-  server: 104.129.164.39
-  port: '8880'
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇮🇷@ShadowProxy66 /?ed
-  servername: ip.langmanshanxi.top
-- type: vless
-  name: ❓ 未知_104
-  server: 216.24.57.63
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed
-  servername: jp.laoyoutiao.link
-- name: 🇺🇸 美国_59
-  type: vless
-  server: 185.133.35.183
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: 🇺🇸 美国_62
-  type: vless
-  server: 160.79.105.76
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: ❓ 未知_109
-  type: vless
-  server: 104.234.239.213
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp.laoyoutiao.link
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_110
-  server: 45.67.215.213
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /?ed
-  servername: jp.laoyoutiao.link
-- name: ❓ 未知_111
-  type: vless
-  server: 27.50.49.179
-  port: '2096'
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edmi.aimercc.filegear-sg.me
-  servername: edmi.aimercc.filegear-sg.me
-- name: 🇺🇸 美国_68
-  type: vless
-  server: 63.141.128.140
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: 🇺🇸 美国_72
-  type: vless
-  server: 212.183.88.136
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- type: vless
-  name: 🇩🇪 德国_28
-  server: 104.16.0.113
+  name: 🇦🇪 阿联酋_8
+  server: 104.24.60.135
   port: '80'
-  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: barayeiran.nastaranh.dpdns.org
-    path: /?ed
-  servername: barayeiran.nastaranh.dpdns.org
-- name: 🇯🇵 日本_11
-  type: vless
-  server: 135.84.74.27
-  port: '8443'
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edmi.aimercc.filegear-sg.me
-  servername: edmi.aimercc.filegear-sg.me
-- name: 🇺🇸 美国_81
-  type: vless
-  server: 160.79.104.115
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: 🇺🇸 美国_83
-  type: vless
-  server: 160.79.104.79
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: 🇺🇸 美国_85
-  type: vless
-  server: 162.159.153.170
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: 🇺🇸 美国_86
-  type: vless
-  server: 185.16.110.249
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: 🇺🇸 美国_94
-  type: vless
-  server: 104.17.104.243
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- type: vless
-  name: ❓ 未知_123
-  server: 91.193.58.170
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-  servername: us.laoyoutiao.link
-- type: vless
-  name: ❓ 未知_125
-  server: 104.129.165.213
-  port: '8880'
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-  servername: jp.laoyoutiao.link
-- name: 🇺🇸 美国_99
-  type: vless
-  server: 162.159.153.184
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- name: 🇺🇸 美国_100
-  type: vless
-  server: 162.159.153.144
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- type: vless
-  name: 🇺🇸 美国_101
-  server: 162.159.152.155
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: cba0b35b-8943-4c70-a864-9f78145b7897
+  tls: false
+  client-fingerprint: random
   skip-cert-verify: true
-  udp: true
-  tls: true
   network: ws
   ws-opts:
-    path: /?ed=2560
     headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
+      Host: agolna.mahsaamini.dpdns.org
+    path: /?ed=2560
+  servername: agolna.mahsaamini.dpdns.org
 - type: vless
-  name: 🇺🇸 美国_105
-  server: 162.159.153.212
-  port: '443'
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  skip-cert-verify: true
-  udp: true
-  tls: true
+  name: 🇩🇪 德国_23
+  server: 172.67.21.2
+  port: '80'
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
     headers:
-      Host: ls.bgm2024.dpdns.org
-  servername: ls.bgm2024.dpdns.org
-- cipher: aes-256-gcm
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: /?ed=2560
+  servername: delam.ahaysiahzangi.dpdns.org
+- name: 🇹🇼 台湾_3
+  type: vmess
+  server: twjxlnnoljxc.jkhkgj.xyz
+  port: '80'
+  cipher: auto
+  uuid: b0af4d14-db9d-4217-b010-5fd2a4b80590
+  alterId: '0'
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /market/tw?ed=512
+    headers:
+      Host: file.dingtalk.com
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本2|@ripaojiedian
-  password: b44864e5b56d
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jplistv1.dashengjs.net
-    mode: websocket
-    mux: true
-    path: /ooojkqzttghm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 163.61.206.64
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 3,15|TW_speednode_0017
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
+  servername: file.dingtalk.com
+- name: ❓ 未知_61
+  type: vless
+  network: ws
+  server: 172.67.135.195
+  port: '2052'
+  uuid: 0d710c53-876d-401f-97f0-6bd1a8db941a
+  skip-cert-verify: true
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 3|🇺🇸53 |  1.9MB/s|61%|Disney
+  xudp: true
+  ws-opts:
+    headers:
+      Host: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /J61hhknxUXEwJZLq/MTU5LjY5LjE1My4xMTQ=?ed=2560
+  client-fingerprint: chrome
+- type: vless
+  name: 🇩🇪 德国_26
+  server: 104.17.99.202
+  port: '80'
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
+    path: /?ed=2560
+  servername: lot.sosant.dpdns.org
+- type: vless
+  name: 🇩🇪 德国_27
+  server: 172.67.127.113
+  port: '80'
+  uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: sib.sibzamini.dpdns.org
+    path: /?ed=2560
+  servername: sib.sibzamini.dpdns.org
+- type: vless
+  name: 🇺🇸 美国_40
+  server: 172.67.193.209
+  port: '80'
+  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: tannaz.juveitaly.dpdns.org
+    path: /?ed=2560
+  servername: tannaz.juveitaly.dpdns.org
+- type: vless
+  name: 🇺🇸 美国_41
+  server: 172.66.137.85
+  port: '80'
+  uuid: 26bc13af-e442-4956-afd4-b8f85744d26f
+  tls: false
+  client-fingerprint: random
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: fggerlad.gerald81.dpdns.org
+    path: /?ed=2560
+  servername: fggerlad.gerald81.dpdns.org
+- name: 🇻🇳 越南_2
+  server: 103.186.154.19
+  port: '38388'
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  client-fingerprint: chrome
+- name: 🇻🇳 越南_3
+  server: 103.163.218.2
+  port: '989'
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- type: vless
+  name: ❓ 未知_68
+  server: 45.131.208.130
+  port: '80'
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+    path: /Telegram:@ShadowProxy66/?ed=2560
+  client-fingerprint: chrome
+- name: ❓ 未知_71
+  type: vless
+  network: ws
+  server: 45.131.5.111
+  port: '80'
+  uuid: d6ff33a6-03bf-4338-8a63-62ab284a9466
+  skip-cert-verify: false
+  tls: false
+  ws-opts:
+    headers:
+      Host: feng4.l1ut8bi9.workers.dev
+    path: /Telegram
+  client-fingerprint: chrome
+  servername: feng4.l1ut8bi9.workers.dev
+- name: ❓ 未知_74
+  type: vless
+  network: ws
+  server: 172.67.189.174
+  port: '80'
+  uuid: 19b3cbba-e6ac-485a-9481-926a0415eab2
+  skip-cert-verify: false
+  tls: false
+  ws-opts:
+    headers:
+      Host: sHrill-tErm-639b.TageLIT414.workeRs.dEv
+    path: /
+  client-fingerprint: chrome
+- client-fingerprint: chrome
+  name: 15|HK_speednode_0031
   network: ws
   port: 8880
-  server: 156.238.18.197
-  servername: yd.laoyoutiao.link
+  server: 154.218.15.63
+  servername: sg.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
@@ -1104,9 +819,39 @@ proxies:
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 3|🇺🇸61 |  1.0MB/s|Disney
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|JP_speednode_0036
+  network: ws
+  port: 8880
+  server: 154.92.9.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|JP_speednode_0037
+  network: ws
+  port: 8880
+  server: 103.116.7.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 2|🇺🇸61 |  1.0MB/s|Disney
   network: ws
   port: 8880
   server: 156.238.18.239
@@ -1120,35 +865,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_0020
-  network: ws
-  port: 8880
-  server: 185.148.105.20
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram @WangCai2 /?ed=2560
-- name: 15|US_speednode_0021
-  network: ws
-  port: 8880
-  server: 104.129.164.39
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇮🇷@ShadowProxy66 /?ed=2560
-- name: 15|US_speednode_0024
+- name: 15|US_speednode_0096
   network: ws
   port: 80
   server: 172.67.11.138
@@ -1162,6 +879,379 @@ proxies:
     headers:
       Host: kssepa.sabzipolobamahi.dpdns.org
     path: /?ed=2560
+- name: 15|US_speednode_0099
+  network: ws
+  port: 80
+  server: 172.66.208.89
+  servername: fggerlad.gerald81.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26bc13af-e442-4956-afd4-b8f85744d26f
+  ws-opts:
+    headers:
+      Host: fggerlad.gerald81.dpdns.org
+    path: /?ed=2560
+- name: 15|US_speednode_0118
+  network: ws
+  port: 8880
+  server: 156.238.18.78
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2048
+- name: 15|US_speednode_0119
+  network: ws
+  port: 80
+  server: 172.67.92.147
+  servername: br.presskiwi.dpdns.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: b8be6118-0dd7-4402-ae1a-69b2816f3a7f
+  ws-opts:
+    headers:
+      Host: br.presskiwi.dpdns.org
+    path: /?ed=2560
+- name: 15|US_speednode_0124
+  network: ws
+  port: 80
+  server: 172.67.69.238
+  servername: pamchall.com.
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 542f694b-e8bd-4b9e-858c-ccb1c46a3316
+  ws-opts:
+    headers:
+      Host: pamchall.com.
+    path: /Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0129
+  network: ws
+  port: 8880
+  server: 104.31.16.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0132
+  network: ws
+  port: 8880
+  server: 108.162.195.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0135
+  network: ws
+  port: 8880
+  server: 108.162.192.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0136
+  network: ws
+  port: 8880
+  server: 108.162.196.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0139
+  network: ws
+  port: 8880
+  server: 141.101.122.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0142
+  network: ws
+  port: 8880
+  server: 139.64.235.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0143
+  network: ws
+  port: 8880
+  server: 108.162.194.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0150
+  network: ws
+  port: 8880
+  server: 173.245.59.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 15|US_speednode_0154
+  network: ws
+  port: 80
+  server: 104.18.30.65
+  servername: lot.sosant.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
+    path: /?ed=2560
+- http-opts:
+    headers:
+      Host:
+      - canva.com
+    method: GET
+    path:
+    - /
+  name: 15|US_speednode_0165
+  network: http
+  port: 56363
+  server: 107.151.220.253
+  servername: canva.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c7658a66-518d-4187-9f46-99b3c1a7a90c
+- name: 15|US_speednode_0168
+  network: ws
+  port: 443
+  server: 104.16.253.83
+  servername: vless7-7a1.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  ws-opts:
+    headers:
+      Host: vless7-7a1.pages.dev
+    path: /
+- name: 15|US_speednode_0169
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.4
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 15|US_speednode_0171
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.0
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 15|US_speednode_0173
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.12
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 15|US_speednode_0175
+  network: ws
+  port: 2087
+  server: 104.17.148.22
+  servername: UK2WBo0IKX3iYI4i9wJdyu6y-o28eT7o.pAgES.dEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16f00fd0-b0e4-4277-a159-b62b12c10cc5
+  ws-opts:
+    headers:
+      Host: UK2WBo0IKX3iYI4i9wJdyu6y-o28eT7o.pAgES.dEV
+    path: /iNyVbdkkx2FGfQry?ed=2560
+- name: 15|US_speednode_0176
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.1
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 15|US_speednode_0181
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.14
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 15|US_speednode_0185
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.11
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 15|US_speednode_0186
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.15
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 15|US_speednode_0188
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.10
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 15|US_speednode_0196
+  network: ws
+  port: 8080
+  server: 104.16.53.11
+  servername: nl02.shxshoping.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 338a9b04-21f6-43a5-8422-bc4ffaee4b37
+  ws-opts:
+    headers:
+      Host: nl02.shxshoping.com
+    path: /live
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 15|US_speednode_0206
+  network: ws
+  port: 2083
+  server: 104.21.32.1
+  servername: 6nY8J3m9bcE4GTsptIvsoBeOKZVyi8Cm.PAgeS.deV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35bdc608-822d-42eb-ad20-4bb23e9c052b
+  ws-opts:
+    headers:
+      Host: 6nY8J3m9bcE4GTsptIvsoBeOKZVyi8Cm.PAgeS.deV
+    path: /e74EBfALorNG1IyW?ed=2560
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1174,96 +1264,96 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies: &id001
-  - ❓ 未知_25
-  - 🇫🇮 芬兰_16
-  - 🇫🇮 芬兰_6
-  - ❓ 未知_125
+  - 15|US_speednode_0188
+  - 15|US_speednode_0150
+  - 🇦🇪 阿联酋_5
   - ❓ 未知_28
-  - ❓ 未知_67
-  - 🇺🇸 美国_14
-  - 🇸🇬 新加坡_22
-  - 🇸🇬 新加坡_16
-  - 🇺🇸 美国_21
-  - 🇸🇬 新加坡_14
-  - 🇸🇬 新加坡_28
-  - 🇸🇬 新加坡_33
-  - 🇩🇪 德国_11
-  - ❓ 未知_96
-  - 🇸🇬 新加坡_9
-  - 🇺🇸 美国_83
-  - 🇩🇪 德国_1
-  - ❓ 未知_71
-  - ❓ 未知_97
-  - ❓ 未知_110
-  - 🇺🇸 美国_101
-  - 🇸🇬 新加坡_27
-  - 🇺🇸 美国_99
-  - 3|🇺🇸53 |  1.9MB/s|61%|Disney
-  - 🇺🇸 美国_68
-  - 🇺🇸 美国_100
-  - ❓ 未知_35
-  - 🇺🇸 美国_29
-  - ❓ 未知_52
-  - 🇩🇪 德国_28
-  - 🇺🇸 美国_105
-  - 🇩🇪 德国_5
-  - ❓ 未知_91
-  - 🇸🇬 新加坡_11
-  - ❓ 未知_123
-  - 🇸🇬 新加坡_24
-  - ❓ 未知_111
-  - ❓ 未知_102
-  - 🇹🇼 台湾_2
-  - ❓ 未知_5
-  - 🇰🇷 韩国_4
-  - 🇺🇸 美国_86
-  - ❓ 未知_98
-  - 🇺🇸 美国_59
-  - 3|🇺🇸61 |  1.0MB/s|Disney
-  - 🇺🇸 美国_15
-  - 15|US_speednode_0024
-  - 🇫🇮 芬兰_12
-  - 3,15|TW_speednode_0017
-  - ❓ 未知_3
-  - ❓ 未知_36
-  - ❓ 未知_69
-  - 15|US_speednode_0020
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - ❓ 未知_104
-  - ❓ 未知_63
-  - 🇳🇱 荷兰_2
-  - 🇫🇮 芬兰_1
-  - 🇺🇸 美国_31
-  - 🇺🇸 美国_72
-  - 🇺🇸 美国_81
-  - ❓ 未知_75
-  - 🇺🇸 美国_42
-  - 15|US_speednode_0021
-  - 🇺🇸 美国_22
-  - ❓ 未知_109
-  - 🇫🇮 芬兰_25
-  - ❓ 未知_23
-  - 🇺🇸 美国_52
-  - 🇺🇸 美国_23
-  - 🇩🇪 德国_6
+  - 🇯🇵 日本
+  - 15|US_speednode_0176
+  - 15|US_speednode_0132
+  - 15|US_speednode_0173
+  - ❓ 未知_49
+  - 15|HK_speednode_0031
+  - 15|US_speednode_0119
+  - 15|US_speednode_0181
+  - ❓ 未知_57
+  - 🇩🇪 德国_27
+  - 🇳🇱 荷兰_5
   - 🇺🇸 美国_19
-  - 🇺🇸 美国_85
-  - 🇸🇬 新加坡_10
-  - 🇯🇵 日本_5
-  - 🇺🇸 美国_24
-  - ❓ 未知_70
-  - 🇫🇮 芬兰_19
-  - 🇯🇵 日本_11
-  - 🇺🇸 美国_43
-  - 🇯🇵 日本_6
-  - 🇺🇸 美国_20
-  - 🇺🇸 美国_62
-  - 🇫🇮 芬兰_22
+  - 15|US_speednode_0099
+  - 🇩🇪 德国_17
+  - 15|US_speednode_0135
+  - ❓ 未知_61
+  - ❓ 未知_51
+  - ❓ 未知_71
   - 🇫🇮 芬兰_11
-  - 🇺🇸 美国_8
-  - 🇩🇪 德国_18
-  - 🇺🇸 美国_94
-  - 🇸🇬 新加坡_26
+  - ❓ 未知_68
+  - 🇩🇪 德国_26
+  - 15|US_speednode_0096
+  - 🇫🇮 芬兰_5
+  - ❓ 未知_20
+  - 🇳🇱 荷兰_6
+  - 🇸🇬 新加坡_9
+  - 🇫🇮 芬兰_7
+  - 15|US_speednode_0136
+  - 🇺🇸 美国_18
+  - 🇺🇸 美国_40
+  - ❓ 未知_23
+  - 🇩🇪 德国_4
+  - 🇩🇪 德国_19
+  - 15|US_speednode_0129
+  - 🇺🇸 美国_5
+  - ❓ 未知_29
+  - 🇩🇪 德国_20
+  - 🇺🇸 美国_30
+  - ❓ 未知_41
+  - ❓ 未知_53
+  - 15|US_speednode_0118
+  - 🇹🇼 台湾_3
+  - 🇦🇪 阿联酋_8
+  - 🇻🇳 越南_3
+  - 🇺🇸 美国_11
+  - 🇻🇳 越南_2
+  - 🇺🇸 美国_29
+  - 15|US_speednode_0175
+  - 🇩🇪 德国_10
+  - ❓ 未知_26
+  - 🇫🇮 芬兰_20
+  - 🇩🇪 德国_3
+  - 🇺🇸 美国_34
+  - 15|US_speednode_0154
+  - 15|US_speednode_0171
+  - ❓ 未知_2
+  - 15|US_speednode_0142
+  - ❓ 未知_38
+  - ❓ 未知_58
+  - 🇺🇸 美国_10
+  - 🇦🇪 阿联酋_7
+  - 15|US_speednode_0206
+  - 15|US_speednode_0185
+  - 2|🇺🇸61 |  1.0MB/s|Disney
+  - 🇸🇬 新加坡_12
+  - 🇩🇪 德国_23
+  - 15|US_speednode_0124
+  - 15|US_speednode_0186
+  - 🇺🇸 美国_41
+  - 15|US_speednode_0168
+  - ❓ 未知_13
+  - 15|US_speednode_0196
+  - ❓ 未知_74
+  - 15|US_speednode_0169
+  - ❓ 未知_15
+  - 15|JP_speednode_0036
+  - 15|US_speednode_0143
+  - ❓ 未知_39
+  - ❓ 未知_37
+  - 15|US_speednode_0139
+  - ❓ 未知_24
+  - 🇳🇱 荷兰_3
+  - 15|US_speednode_0165
+  - 15|JP_speednode_0037
+  - 🇫🇮 芬兰_6
+  - ❓ 未知_30
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
